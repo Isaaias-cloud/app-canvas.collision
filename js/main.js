@@ -2,7 +2,7 @@
 const canvas = document.getElementById("canvas");
 let ctx = canvas.getContext("2d");
 //Obtiene el audio
-let collisionSound = new Audio('/Assets/collision.mp3');
+let collisionSound = new Audio('./Assets/collision.mp3');
 
 // Configuración del canvas y sus dimensiones
 const window_height = 800//window.innerHeight;
