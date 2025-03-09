@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colisiones</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <!-- Menú superior -->
+    <header>
+        <h1>Programa que genera círculos que rebotan cuando colisionan</h1>
+        <div class="controls">
+            <input type="number" id="circleCount" placeholder="Cantidad de círculos" min="1" max="100">
+            <button onclick="setCircleCount()">Generar Círculos</button>
+        </div>
+    </header>
+
+    <!-- Canvas en el centro -->
+    <div class="canvas-container">
+        <canvas id="canvas" width="800" height="600"></canvas>
+    </div>
+    
+    <!-- Footer al fondo de la página -->
+    <footer>
+        &copy; 2025 - Mi Proyecto de Colisiones
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
